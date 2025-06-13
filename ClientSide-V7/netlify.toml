@@ -1,4 +1,9 @@
+ [build]
+  base = "ClientSide-V7"
+  publish = "ClientSide-V7/build"
+  command = "npm run build
+
  [[redirects]]
  from = "/*"
- to = "/"
+ to = "/index.html"
  status = 200
