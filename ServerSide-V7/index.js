@@ -42,7 +42,7 @@ app.use("/sales", salesRoutes);
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => {
-    app.listen(process.env.PORT || 9000, () => console.log("CONNECTED")); 
+    app.listen(process.env.PORT || 5001, () => console.log("CONNECTED")); 
 
     // User.insertMany(dataUser) 
     // Product.insertMany(dataProduct) 
